@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
 
 export default function Weather() {
-  const apiKey = "1372b6d6a8d8aaa9502f75bd61199434";//"YOUR_API_KEY";
+  const apiKey = "";//"YOUR_API_KEY";
   const apiUrl = `https://api.openweathermap.org/data/2.5/`;
 
   const [search, setSearch] = useState("");
